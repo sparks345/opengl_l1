@@ -1,8 +1,10 @@
-package com.tencent.karaoke.opengl_l1;
+package com.tencent.karaoke.opengl_l1.first;
 
 import android.opengl.GLSurfaceView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.tencent.karaoke.opengl_l1.MyGLSurfaceView;
 
 public class OpenGLMain extends AppCompatActivity {
 
@@ -13,14 +15,11 @@ public class OpenGLMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         assignViews();
         setContentView(glMain);
-//        setContentView(R.layout.open_gl_main);
 
     }
 
     private void assignViews() {
-//        glMain = (GLSurfaceView) findViewById(R.id.gl_main);
         glMain = new MyGLSurfaceView(this);
     }
-
 
 }

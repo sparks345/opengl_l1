@@ -5,11 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OpenGLMain">
+    tools:context=".first.OpenGLMain">
 
-<!--    <com.tencent.karaoke.opengl_l1.MyGLSurfaceView
-        android:id="@+id/gl_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>-->
+
 
 </android.support.constraint.ConstraintLayout>
